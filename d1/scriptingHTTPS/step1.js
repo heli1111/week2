@@ -1,6 +1,6 @@
 const https = require("https");
 
-function getAndPrintHTMLChunks () {
+function getAndPrintHTMLChunks() {
 	
 	let requestOptions = {
     	host: 'sytantris.github.io',
@@ -25,11 +25,3 @@ function getAndPrintHTMLChunks () {
 
 getAndPrintHTMLChunks();
 
-/*
-
-You can use the example above as a reference or template.
-This function should console.log each chunk of data as it 
-is received, concatenated with a newline character ('\n') 
-so you can visualize each chunk.
-
-*/
